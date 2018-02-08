@@ -1,0 +1,32 @@
+
+f=open("/Users/kateotto/.spyder-py3/temp.py", "a+")
+
+
+f=open("/Users/kateotto/.spyder-py3/temp.py", "r")
+
+if f.mode == "r":
+    
+    print(list)
+    
+    
+a=[2, 4, 6]
+
+b=[1, 3, 5]
+
+print(len(a))
+
+for index, entry in enumerate(a):
+    if ( entry % 2 == 0):
+        print("Even number " + str(a[index]))
+    else:
+        print("Odd number " + str(b[index]))
+        
+print(len(b))
+        
+for index, entry in enumerate(a):
+    if ( entry % 1 == 0):
+        print("Odd number " + str(b[index]))
+    else:
+        print("Even number " + str(a[index]))
+        
+       
